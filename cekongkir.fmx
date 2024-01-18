@@ -1,0 +1,248 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 569
+  ClientWidth = 358
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object GroupBox1: TGroupBox
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 329.000000000000000000
+    Size.Height = 89.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Kurir'
+    TabOrder = 0
+    object cbkurir: TComboBox
+      Position.X = 129.000000000000000000
+      Position.Y = 24.000000000000000000
+      Size.Width = 192.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'cbkurirStyle1'
+      TabOrder = 37
+      object POS: TListBoxItem
+        TabOrder = 0
+        Text = 'POS Indonesia'
+      end
+      object ListBoxItem1: TListBoxItem
+        TabOrder = 1
+        Text = 'JNE Express'
+      end
+      object ListBoxItem2: TListBoxItem
+        TabOrder = 2
+        Text = 'Shoppe Express'
+      end
+      object ListBoxItem3: TListBoxItem
+        TabOrder = 3
+        Text = 'JNT Expres'
+      end
+    end
+  end
+  object Button1: TButton
+    Position.X = 217.000000000000000000
+    Position.Y = 369.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'Cek ongkir'
+  end
+  object GroupBox3: TGroupBox
+    Position.X = 8.000000000000000000
+    Position.Y = 97.000000000000000000
+    Size.Width = 329.000000000000000000
+    Size.Height = 96.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Kota Asal'
+    TabOrder = 1
+    object cbkotaasal: TComboBox
+      Position.X = 129.000000000000000000
+      Position.Y = 56.000000000000000000
+      Size.Width = 192.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object ListBoxItem7: TListBoxItem
+        TabOrder = 0
+        Text = 'YOGYAKARTA'
+      end
+      object ListBoxItem8: TListBoxItem
+        TabOrder = 1
+        Text = 'SURABAYA'
+      end
+      object ListBoxItem9: TListBoxItem
+        TabOrder = 2
+        Text = 'SEMARANG'
+      end
+      object ListBoxItem10: TListBoxItem
+        TabOrder = 3
+        Text = 'JAKARTA'
+      end
+      object ListBoxItem11: TListBoxItem
+        TabOrder = 4
+        Text = 'KEDIRI'
+      end
+    end
+    object cbProvinsiAsal: TComboBox
+      Position.X = 129.000000000000000000
+      Position.Y = 22.000000000000000000
+      Size.Width = 192.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object ListBoxItem4: TListBoxItem
+        TabOrder = 0
+        Text = 'JAWA TIMUR'
+      end
+      object ListBoxItem5: TListBoxItem
+        TabOrder = 1
+        Text = 'JAWA BARAT'
+      end
+      object ListBoxItem6: TListBoxItem
+        TabOrder = 2
+        Text = 'JAWA TENGAH'
+      end
+    end
+    object mmo1: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Position.Y = 313.000000000000000000
+      Size.Width = 321.000000000000000000
+      Size.Height = 144.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 37
+      Viewport.Width = 313.000000000000000000
+      Viewport.Height = 136.000000000000000000
+    end
+  end
+  object GroupBox4: TGroupBox
+    Position.X = -40.000000000000000000
+    Position.Y = 201.000000000000000000
+    Size.Width = 377.000000000000000000
+    Size.Height = 98.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Kota Tujuan'
+    TabOrder = 2
+    object cbkotatujuann: TComboBox
+      ItemIndex = 3
+      Position.X = 177.000000000000000000
+      Position.Y = 58.000000000000000000
+      Size.Width = 192.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 37
+      object ListBoxItem15: TListBoxItem
+        TabOrder = 0
+        Text = 'KEDIRI'
+      end
+      object ListBoxItem16: TListBoxItem
+        Size.Width = 44.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'SEMARANG'
+      end
+      object ListBoxItem17: TListBoxItem
+        Size.Width = 44.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = 'YOGYAKARTA'
+      end
+      object ListBoxItem18: TListBoxItem
+        IsSelected = True
+        Size.Width = 44.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = 'SURABAYA'
+      end
+    end
+  end
+  object Label3: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 152.000000000000000000
+    Text = 'Kota'
+    TabOrder = 36
+  end
+  object Label1: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Kurir'
+    TabOrder = 37
+  end
+  object Label2: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 127.000000000000000000
+    Text = 'Provinsi'
+    TabOrder = 35
+  end
+  object cbprovinsiTujuan: TComboBox
+    Position.X = 137.000000000000000000
+    Position.Y = 222.000000000000000000
+    Size.Width = 192.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 38
+    object ListBoxItem12: TListBoxItem
+      TabOrder = 0
+      Text = 'JAWA BARAT'
+    end
+    object ListBoxItem13: TListBoxItem
+      TabOrder = 1
+      Text = 'JAWA TENGAH'
+    end
+    object ListBoxItem14: TListBoxItem
+      TabOrder = 2
+      Text = 'JAWA TIMUR'
+    end
+  end
+  object Label4: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 228.000000000000000000
+    Text = 'Provinsi'
+    TabOrder = 39
+  end
+  object Label5: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 253.000000000000000000
+    Text = 'Kota'
+    TabOrder = 40
+  end
+  object GroupBox5: TGroupBox
+    Position.X = 8.000000000000000000
+    Position.Y = 307.000000000000000000
+    Size.Width = 329.000000000000000000
+    Size.Height = 54.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Berat/Kg'
+    TabOrder = 41
+    object Berat: TLabel
+      Position.X = 24.000000000000000000
+      Position.Y = 23.000000000000000000
+      Text = 'Berat'
+      TabOrder = 37
+    end
+  end
+  object eBerat: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 42
+    Position.X = 137.000000000000000000
+    Position.Y = 321.000000000000000000
+    Size.Width = 192.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object http: TNetHTTPClient
+    UserAgent = 'Embarcadero URI Client/1.0'
+    Left = 24
+    Top = 360
+  end
+end

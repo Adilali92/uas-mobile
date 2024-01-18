@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/12/23 18:30:42.000.277,=C:\Users\twoD\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2023/12/23 18:31:01.000.966,C:\Users\twoD\Documents\Embarcadero\Studio\Projects\cek_ongkir.dproj=C:\Users\twoD\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/12/23 20:18:13.000.993,C:\Users\twoD\Documents\Embarcadero\Studio\Projects\cekongkir.pas=C:\Users\twoD\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2023/12/23 20:18:13.000.993,C:\Users\twoD\Documents\Embarcadero\Studio\Projects\cekongkir.fmx=C:\Users\twoD\Documents\Embarcadero\Studio\Projects\Unit3.fmx</Transaction>
+    <Transaction>2023/12/23 20:18:24.000.199,C:\Users\twoD\Documents\Embarcadero\Studio\Projects\cek_ongkir.dproj=C:\Users\twoD\Documents\Embarcadero\Studio\Projects\cek_ongkir.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="102752537R006667"/>
+	</ActiveMobileDevice>
+</BorlandProject>
